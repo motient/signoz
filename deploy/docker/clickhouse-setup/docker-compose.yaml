@@ -10,7 +10,7 @@ services:
     volumes:
       - ./clickhouse-config.xml:/etc/clickhouse-server/config.xml
       - ./clickhouse-users.xml:/etc/clickhouse-server/users.xml
-      # - ./clickhouse-storage.xml:/etc/clickhouse-server/config.d/storage.xml
+      - ./clickhouse-storage.xml:/etc/clickhouse-server/config.d/storage.xml
       - ./data/clickhouse/:/var/lib/clickhouse/
     restart: on-failure
     logging:
