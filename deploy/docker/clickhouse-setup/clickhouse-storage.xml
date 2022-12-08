@@ -3,7 +3,7 @@
         <disks>
             <azure>
                 <type>azure_blob_storage</type>
-                <storage_account_url>http://flyjuicerdev.blob.core.windows.net</storage_account_url>
+                <storage_account_url>https://flyjuicerdev.blob.core.windows.net</storage_account_url>
                 <container_name>flyjuicer-storage</container_name>
                 <account_name>flyjuicerdev</account_name>
                 <skip_access_check>false</skip_access_check>
