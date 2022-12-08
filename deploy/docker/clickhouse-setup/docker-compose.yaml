@@ -2,7 +2,7 @@ version: "2.4"
 
 services:
   clickhouse:
-    image: clickhouse/clickhouse-server:22.8.8-alpine
+    image: clickhouse/clickhouse-server:22.10.2.11-alpine
     # ports:
     # - "9000:9000"
     # - "8123:8123"
