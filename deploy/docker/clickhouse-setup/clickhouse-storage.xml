@@ -8,7 +8,6 @@
                 <account_name>flyjuicerdev</account_name>
                 <skip_access_check>false</skip_access_check>
                 <max_single_part_upload_size>33554432</max_single_part_upload_size>
-                <account_key>REPLACE_ME</account_key>
             </azure>
             <cached_azure>
                 <type>cache</type>
